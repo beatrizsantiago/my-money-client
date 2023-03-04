@@ -1,7 +1,4 @@
 import Head from 'next/head'
-import { Quicksand } from '@next/font/google'
-
-const quicksandFont = Quicksand({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -17,7 +14,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
       <main>
-        MyMoney
+        MyMoney - Autenticação
       </main>
     </>
   )
