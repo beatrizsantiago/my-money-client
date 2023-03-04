@@ -17,7 +17,7 @@ Project to explore NextJS.
 - [Styled-components](https://styled-components.com/)
 - IDE: [VSCode](https://code.visualstudio.com/)
 
-### Getting Started
+### 🎯 Getting Started
 
 First, run the development server:
 
