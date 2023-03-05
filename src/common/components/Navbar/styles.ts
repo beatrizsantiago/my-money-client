@@ -18,8 +18,8 @@ export const Nav = styled.div`
 `;
 
 type ItemType = {
-  active: number,
-}
+  active: number;
+};
 
 export const Item = styled(Link)<ItemType>`
   width: 150px;
@@ -27,10 +27,11 @@ export const Item = styled(Link)<ItemType>`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(${({ active }) => active ? '--medium-gray' : '--main-gray'});
-  font-weight: ${({ active }) => active ? 700 : 500};
+  color: var(${({ active }) => (active ? '--medium-gray' : '--main-gray')});
+  font-weight: ${({ active }) => (active ? 700 : 500)};
   font-size: 16px;
-  border-bottom: ${({ active }) => active ? 'solid 3px var(--medium-gray)' : 'none'};
+  border-bottom: ${({ active }) =>
+    active ? 'solid 3px var(--medium-gray)' : 'none'};
 `;
 
 export const IconBox = styled.div`

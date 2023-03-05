@@ -42,16 +42,9 @@ const Image = styled.img`
 
 const NotFoundErrorPage = () => (
   <Container>
-    <Image
-      src="/assets/not_found_error.svg"
-      alt="Página não encontrada"
-    />
-    <Subtitle>
-      Desculpe, a página que você está procurando não existe.
-    </Subtitle>
-    <Button href="/">
-      Voltar para a página inicial
-    </Button>
+    <Image src="/assets/not_found_error.svg" alt="Página não encontrada" />
+    <Subtitle>Desculpe, a página que você está procurando não existe.</Subtitle>
+    <Button href="/">Voltar para a página inicial</Button>
   </Container>
 );
 
